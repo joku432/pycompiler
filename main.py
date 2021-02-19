@@ -1,9 +1,8 @@
-import argparse
+from argparse import *
 
 def parse_args():
     # TODO
-    argp = argparse.ArgumentParser()
-    
+    argp = ArgumentParser('Python C Compiler')
 
 def main():
     print('Hello world!')
